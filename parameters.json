@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus2"
+        },
+        "virtualMachineName": {
+            "value": "SASVM"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_L16s"
+        },
+        "numberOfDataDisks": {
+            "value": 32
+        },
+        "adminUsername": {
+            "value": "eagle"
+        },
+        "virtualNetworkName": {
+            "value": "SAS-VNET"
+        },
+        "networkInterfaceName": {
+            "value": "sasvm466"
+        },
+        "networkSecurityGroupName": {
+            "value": "SASVM-NSG"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "subnetName": {
+            "value": "SAS-Subnet"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "SASVM-PIP"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
