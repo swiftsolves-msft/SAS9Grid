@@ -9,10 +9,13 @@
             "value": "SASVM"
         },
         "virtualMachineSize": {
-            "value": "Standard_L16s"
+            "value": "Standard_GS5-8"
         },
         "numberOfDataDisks": {
-            "value": 32
+            "value": 8
+        },
+        "diskSizeGB": {
+            "value": 4095
         },
         "adminUsername": {
             "value": "eagle"
